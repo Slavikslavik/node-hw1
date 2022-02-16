@@ -1,0 +1,19 @@
+{
+  "name": "home-work1",
+  "version": "1.0.0",
+  "description": "home works common js modules",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev:debug": "node --inspect-brk app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Slavikslavik/node-home-work1.git"
+  },
+  "author": "poddubnyy",
+  "homepage": "https://github.com/Slavikslavik/node-home-work1#readme",
+  "dependencies": {
+    "chalk": "4.1.2"
+  }
+}
