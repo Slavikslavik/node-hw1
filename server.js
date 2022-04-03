@@ -14,7 +14,8 @@ server.on("request", (req, res) => {
     } else if(req.url == '/favicon.ico'){
         fs.createReadStream('favicon.ico').pipe(res);
     } else {
-        res.destroy();
+        res.statusCode = 404;
+        res.end();
     }
 });
 
